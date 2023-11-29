@@ -26,4 +26,5 @@ class Solution:
             estimate = root
 
         # Python just lowers the root during casting.
+        # Also try to use 'root // 1' instead of casting.
         return int(root)
