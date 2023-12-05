@@ -1,3 +1,15 @@
 from src.bttbass import Solution
 
+
 def test_0_bttbass_iteration_0():
+    first_result = Solution.bttbass_iteration_0([5, 3, 1, 4, 8])
+    first_expected = 7
+    assert first_result == first_expected, f"Expected {first_expected}, but got {first_result}"
+
+    second_result = Solution.bttbass_iteration_0([3, 1])
+    second_expected = 0
+    assert second_result == second_expected, f"Expected {second_expected}, but got {second_result}"
+
+    third_result = Solution.bttbass_iteration_0([])
+    third_expected = 0
+    assert third_result == third_expected, f"Expected {third_result}, but got {third_expected}"
