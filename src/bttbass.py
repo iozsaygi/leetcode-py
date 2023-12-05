@@ -36,3 +36,17 @@ class Solution:
                 maximum = prices[j]
 
         return maximum - minimum
+
+    # Using of built-in 'max' for calculation.
+    @staticmethod
+    def bttbass_iteration_1(prices: list[int]) -> int:
+        profit = 0
+        buy = prices[0]
+
+        for sell in prices[1:]:
+            if sell > buy:
+                profit = max(profit, sell - buy)
+            else:
+                buy = sell
+
+        return profit
