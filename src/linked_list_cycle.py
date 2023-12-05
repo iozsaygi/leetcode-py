@@ -11,7 +11,7 @@ class Solution:
 
     # Solution that uses Floyd's tortoise and hare algorithm.
     @staticmethod
-    def has_cycle(head: Node) -> bool:
+    def llc_iteration_0(head: Node) -> bool:
         if not head or not head.next:
             return False
 
