@@ -7,7 +7,7 @@ class Solution:
     # This is the first solution that I came up with. Almost half of the test cases failed.
     # O(n) with two passes.
     @staticmethod
-    def bttbass_iteration_0(prices: list[int]) -> int:
+    def best_time_to_buy_and_sell_stock_iteration_0(prices: list[int]) -> int:
         if len(prices) == 0:
             return 0
 
@@ -39,7 +39,7 @@ class Solution:
 
     # Using of built-in 'max' for calculation.
     @staticmethod
-    def bttbass_iteration_1(prices: list[int]) -> int:
+    def best_time_to_buy_and_sell_stock_iteration_1(prices: list[int]) -> int:
         profit = 0
         buy = prices[0]
 
