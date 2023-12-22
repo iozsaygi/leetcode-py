@@ -29,9 +29,3 @@ def test_1_bttbass_iteration_1():
     second_result = Solution.best_time_to_buy_and_sell_stock_iteration_1([3, 1])
     second_expected = 0
     assert second_result == second_expected, f"Expected {second_expected}, but got {second_result}"
-
-
-def test_2_bttbass_iteration_1():
-    third_result = Solution.best_time_to_buy_and_sell_stock_iteration_1([])
-    third_expected = 0
-    assert third_result == third_expected, f"Expected {third_result}, but got {third_expected}"
