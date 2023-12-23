@@ -1,4 +1,4 @@
-## About
+# LeetCode Py
 
 This repository is a result of my Python learning efforts. I wanted to learn Python while
 solving [LeetCode](https://leetcode.com/) problems.
