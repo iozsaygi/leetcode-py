@@ -11,6 +11,7 @@ Unit tests will also be included for each problem that I've worked on.
 - Linked list cycle
 - Best time to buy and sell stock
 - Path crossing
+- Single number
 
 ## License
 
