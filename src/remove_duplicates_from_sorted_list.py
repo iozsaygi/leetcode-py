@@ -16,7 +16,7 @@ class Solution:
         current = head
 
         while current is not None and current.next is not None:
-            if current.value is current.next.value:
+            if current.value == current.next.value:
                 current.next = current.next.next
             else:
                 current = current.next
