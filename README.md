@@ -13,6 +13,7 @@ Unit tests will also be included for each problem that I've worked on.
 - Path crossing
 - Single number
 - Remove duplicates from sorted list
+- Remove duplicates from sorted array
 
 ## License
 
